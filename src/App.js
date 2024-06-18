@@ -5,7 +5,9 @@ import ConditionRenComp from './components/ConditionRenComp';
 import FunctionComp from './components/FunctionComp';
 import MethodEventComp from './components/MethodAndEvent';
 import MyImagesComp from './components/MyImagesComp';
+import ParentComp from './components/ParentComp';
 import SetStateComp from './components/SetStateComp';
+import ToggleImg from './components/ToggleImg';
 import Mydetails from './components/myDetails';
 
 function App() {
@@ -32,7 +34,9 @@ function App() {
       {/* <MethodEventComp/> */}
       {/* <SetStateComp/> */}
       {/* <ConditionRenComp/> */}
-      <MyImagesComp/>
+      {/* <MyImagesComp/> */}
+      {/* <ToggleImg/> // doubt */} 
+      <ParentComp/>
     </div>
   );
 }
