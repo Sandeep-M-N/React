@@ -24,7 +24,9 @@ import ChildCom1 from './ChildCom1'
                 <p>Employee Name is:<strong>{this.state.empName}</strong></p>
                 <p>Employee Salary is:<strong>{this.state.empSalary}</strong></p>
                 <button type='button' onClick={()=>this.changedata()}>change state Data</button>
-                <ChildCom1 name={this.state.empName} salary={this.state.empSalary}/>
+                <hr/>
+                <ChildCom1 name={this.state.empName} salary={this.state.empSalary} changedata={this.changedata}/>
+                <hr/>
             </div>
         )
     }
