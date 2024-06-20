@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+// import BreakFastComp from './components/BreakFastComp';
 import ClassComp from './components/ClassComp';
 import ClickCounterComp from './components/ClickCounterComp';
 import ConditionRenComp from './components/ConditionRenComp';
@@ -44,7 +45,8 @@ function App() {
       {/* <MyCss/> */}
       {/* <ClickCounterComp/>
       <HoverCounterComp/> */}
-      <MysliderComp/>
+      {/* <MysliderComp/> */}
+      
     </div>
   );
 }

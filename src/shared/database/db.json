@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "laptop",
+      "price": 55000,
+      "company": "dell"
+    },
+    {
+      "id": "2",
+      "pname": "monitor",
+      "price": 5000,
+      "company": "hp"
+    },
+    {
+      "id": "3",
+      "pname": "mouse",
+      "price": 55,
+      "company": "hp"
+    },
+    {
+      "id": "4",
+      "pname": "keyboard",
+      "price": 550,
+      "company": "hp"
+    },
+    {
+      "id": "ff21",
+      "pname": "laptop",
+      "price": "65000",
+      "comapny": "",
+      "company": "lenovo"
+    },
+    {
+      "id": "2138",
+      "pname": "mobile",
+      "price": "20000",
+      "comapny": "nothing"
+    },
+    {
+      "id": "0da7",
+      "pname": "mobile",
+      "price": "20000",
+      "comapny": "nothing"
+    },
+    {
+      "id": "2af0",
+      "pname": "mobile ",
+      "price": "25555",
+      "comapny": "oneplus"
+    },
+    {
+      "id": "14ab",
+      "pname": "speaker",
+      "price": "2000",
+      "comapny": "jbl"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userid": "xyz@gmail.com",
+      "userpass": "xyz@123"
+    },
+    {
+      "id": "2",
+      "userid": "abc@gmail.com",
+      "userpass": "abc@123"
+    },
+    {
+      "id": "3",
+      "userid": "def@gmail.com",
+      "userpass": "def@123"
+    }
+  ]
+}
