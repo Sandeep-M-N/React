@@ -15,9 +15,11 @@ import ProductDashboardComp from "../CRUD/ProductDashboardComp";
 import ProductAddComp from "../CRUD/ProductAddComp";
 import ProductUpdateComp from "../CRUD/ProductUpdateComp";
 import LoginComp from "../layout/LoginComp";
+import SignOutComp from "../layout/SignOutComp";
 const router = createBrowserRouter([
     {path:"",element:<LoginComp/>},
     {path:"login",element:<LoginComp/>},
+    {path:"signout",element:<LoginComp/>},
 
     {path:"maindash",element:<MaindashboardComp/>,children:[
          // default routing
